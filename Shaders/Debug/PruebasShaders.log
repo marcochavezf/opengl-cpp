@@ -1,0 +1,30 @@
+﻿Build started 16/11/2012 02:45:58 p.m..
+     1>Project "C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\PruebasShaders.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\PruebasShaders.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt redSquare.cpp
+         redSquare.cpp
+     1>c:\users\marco\dropbox\escuela\2012 agosto-diciembre\gráficas\proyectos\pruebasshaders\redsquare.cpp(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\Debug\PruebasShaders.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib" /LTCG:STATUS opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\PruebasShaders.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\Debug\PruebasShaders.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\Debug\PruebasShaders.lib" /MACHINE:X86 Debug\PruebasShaders.exe.embed.manifest.res
+         Debug\redSquare.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\PruebasShaders.exe.embed.manifest" /manifest Debug\PruebasShaders.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         PruebasShaders.vcxproj -> C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\Debug\PruebasShaders.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\PruebasShaders.unsuccessfulbuild".
+         Touching "Debug\PruebasShaders.lastbuildstate".
+     1>Done Building Project "C:\Users\Marco\Dropbox\Escuela\2012 Agosto-Diciembre\Gráficas\Proyectos\PruebasShaders\PruebasShaders.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
